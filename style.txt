@@ -1,0 +1,9 @@
+.test {width: 65px; height: 90px; border-radius: 30px;
+       position: relative;
+       animation: ili 15s infinite;}
+@keyframes ili {
+  0% {left: 0px; background: darkblue;}
+  25% {left: 750px; background: blue;}
+  50% {left: 500px; background: aqua ;}
+  75% {left: 250px; background: lightblue;}
+  100% {left: 0px; background: #C7F2C8;}}
